@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Recommendation System</h1>
+
+        <!-- Dropdown + Text Input for Movie Selection -->
+        <label for="movieTitle">Select or Type a Movie:</label>
+        <input type="text" id="movieInput" placeholder="Type a movie name...">
+        <select id="movieDropdown">
+            <option value="">Loading movies...</option>
+        </select>
+
+        <button onclick="getRecommendations()">Recommend</button>
+
+        <h2>Recommended Movies:</h2>
+        <div id="recommendations"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+# Ignore Virtual Environment
+env/
+capstone_env/
+
+# Ignore system files
+__pycache__/
+*.pyc
+
+# Ignore large files
+*.pkl
+cosine_sim.pkl
+similarity.pkl
+
