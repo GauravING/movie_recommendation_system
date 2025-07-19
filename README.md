@@ -22,3 +22,9 @@ A content-based movie recommendation system using **FastAPI**, **Python**, and *
 - 🎨 Simple and responsive frontend
 
 ---
+
+ ****Run the FastAPI Server******
+>>>>>>>> uvicorn main:app --reload
+```
+
+
